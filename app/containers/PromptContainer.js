@@ -4,7 +4,7 @@ var Prompt = require('../components/Prompt');
 // Container Component (vs Presentational Component)
 
 var PromptContainer = React.createClass({
-  contextTypes: {
+  contextTypes: {  //  This allows us to do routing in this component.
     router: React.PropTypes.object.isRequired
   },
   getInitialState: function() {
