@@ -1,6 +1,7 @@
 var React = require('react');
 var PropTypes = React.PropTypes;
-var transparentBg = require('../styles').transparentBg;
+var styles = require('../styles');
+var MainContainer = require('./MainContainer');
 
 // Presentational Component (vs Container Components)
 
@@ -9,7 +10,7 @@ var transparentBg = require('../styles').transparentBg;
 // Instead of creating a class we just create a function:
 function Prompt (props) {
   return (
-    <div className="jumbotron col-sm-6 col-sm-offset-3 text-center" style={transparentBg}>
+    <MainContainer>
       <h1>{props.header}</h1>
       <div className="col-sm-12">
         <form onSubmit={props.onSubmitUser}>
@@ -30,7 +31,7 @@ function Prompt (props) {
           </div>
         </form>
       </div>
-    </div>
+    </MainContainer>
   )
 }
 
