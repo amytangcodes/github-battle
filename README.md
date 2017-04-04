@@ -1,11 +1,10 @@
 # github-battle
 A little ReactJS tutorial
 
-
-Reference
-https://online.reacttraining.com/
-
-
+## Usage
 $ npm start
 
 http://localhost:8080/
+
+## Documentation
+[**React Training**](https://online.reacttraining.com/)
