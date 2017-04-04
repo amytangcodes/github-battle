@@ -6,10 +6,11 @@ var Link = ReactRouter.Link;
 var UserDetails = require('./UserDetails');
 var UserDetailsWrapper = require('./UserDetailsWrapper');
 var MainContainer = require('./MainContainer');
+var Loading = require('./Loading');
 
 function ConfirmBattle (props) {
   return props.isLoading === true  // is set to true (default is true)
-    ? <p> LOADING! </p>  // then we want to render LOADING!
+    ? <Loading speed={800}  text='Wait one moment' />  // then we want to render LOADING!
     // : <div> CONFIRM BATTLE!: {puke(props)} </div>  // and if it's not
     : <MainContainer>
         <h1>Confirm Players</h1>
