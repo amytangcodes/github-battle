@@ -13,6 +13,7 @@
     "axios": "^0.15.3",
     "jquery": "^3.1.1",
     "react": "^15.4.2",
+    "react-addons-css-transition-group": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-router": "^2.0.0-rc5"
   },
@@ -21,9 +22,11 @@
     "babel-loader": "^6.4.1",
     "babel-preset-react": "^6.23.0",
     "coffee-loader": "^0.7.3",
+    "css-loader": "^0.28.0",
     "html-webpack-plugin": "^2.28.0",
     "node-sass": "^4.5.0",
     "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.2"
   }
