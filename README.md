@@ -1,4 +1,4 @@
-# github-battle
+# Github Battle
 A little ReactJS tutorial
 
 ## Getting Started
